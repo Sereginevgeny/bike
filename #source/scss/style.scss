@@ -1,0 +1,448 @@
+@import 'nullstyle.scss';
+
+//Шапка
+.header {
+	height: 800px;
+	background-image: url(../img/top/Bike-top.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-top: 70px;
+	&__nav {
+		text-align: center;
+		&::after {
+			display: table;
+			clear: both;
+			content: "";
+		}
+	}
+}
+
+.container {
+	
+	width: 1600px;
+	margin: 0 auto;
+}
+
+.nav {
+	&__left {
+		float: left;
+		margin-left: 360px;
+		margin-top: 40px;
+	}
+	&__link-nav {
+  		font-family: Lato;
+  		font-size: 13px;
+  		font-weight: bold;
+  		letter-spacing: 2.6px;
+  		text-align: left;
+		color: #4d4959;
+		margin-right: 65px;
+		margin-left: 65px;
+	}
+	&__right {
+		float: right;
+		margin-right: 355px; 
+		margin-top: 40px;
+	}
+		&__logo {
+			float: left;
+			width: 94px;
+			height: 85px;
+		}
+}
+//О нас
+.about {
+	background-color: #f7f7f7;
+	padding-top: 115px;
+	padding-bottom: 130px;
+	&__icon-about {
+		text-align: center;
+		margin-bottom: 35px;
+	}
+	&__title-about {
+		font-family: Lato;
+		font-size: 18px;
+		font-weight: bold;
+		letter-spacing: 3.6px;
+		text-align: center;
+		color: #353738;
+		margin-bottom: 35px;
+	}
+	&__text-about {
+		margin-left: 260px;
+		
+		display: block;
+		width: 1079px;
+  		height: 84px;
+  		font-family: Lato;
+  		font-size: 18px;
+  		line-height: 1.89;
+  		letter-spacing: normal;
+  		text-align: center;
+		color: #848789;
+	}
+}
+
+
+//Контент
+//1велик
+.bike1 {
+	&::after {
+		display: table;
+		clear: both;
+		content: "";
+	}
+	&__column1 {
+		width: 1067px;
+		float: left;
+	}
+	&__column2 {
+		width: 533px;
+		float: left;
+		padding-top: 70px;
+	}
+}
+
+.block1 {
+	&__icon-1row {
+		margin-left: 246px;
+		margin-bottom: 30px;
+	}
+	&__title {
+  		font-family: Lato;
+  		font-size: 18px;
+  		font-weight: bold;
+  		letter-spacing: 3.6px;
+  		text-align: center;
+		color: #353738;
+		margin-bottom: 30px;
+	}
+	&__text {
+  		font-family: Lato;
+  		font-size: 16px;
+  		line-height: 1.88;
+  		text-align: justify;
+		color: #848789;
+		padding-left: 65px;
+		padding-right: 65px;
+		margin-bottom: 73px;
+	}
+}
+
+
+//2велик
+.bike2 {
+	&::after {
+		display: table;
+		clear: both;
+		content: "";
+	}
+	&_column1 {
+		width: 534px;
+  background-color: #ffffff;
+  padding-top: 70px;
+  float: left;
+	}
+	&_column2 {
+		width: 1060px;
+		float: left;
+	}
+}
+
+.column1 {
+	&__icon-row2 {
+		margin-left: 246px;
+		margin-bottom: 30px;
+	}
+	&__text {
+		font-family: Lato;
+  		font-size: 16px;
+  		line-height: 1.88;
+  		text-align: justify;
+		color: #848789;
+		padding-left: 65px;
+		padding-right: 65px;
+		margin-bottom: 70px;
+	}
+	&__title {
+		font-family: Lato;
+		font-size: 18px;
+		font-weight: bold;
+		letter-spacing: 3.6px;
+		text-align: center;
+	 color: #353738;
+	 margin-bottom: 30px;
+	}
+}
+
+
+//3велик
+.bike3 {
+	&::after {
+		display: table;
+		clear: both;
+		content: "";
+	}
+	&__img1 {
+		float: left;
+		width: 533px;
+	}
+	&__column2 {
+		background-color: #ffffff;
+  padding-top: 60px;
+		width: 534px;
+		float: left;
+	}
+	&__img3 {
+		width: 533px;
+		float: left;
+	}
+}
+
+.column2 {
+	&__icon-row2 {
+		margin-left: 246px;
+		margin-bottom: 30px;
+	}
+	&__title {
+		font-family: Lato;
+		font-size: 18px;
+		font-weight: bold;
+		letter-spacing: 3.6px;
+		text-align: center;
+	 color: #353738;
+	 margin-bottom: 30px;
+	}
+	&__text {
+		font-family: Lato;
+  		font-size: 16px;
+  		line-height: 1.88;
+  		text-align: justify;
+		color: #848789;
+		padding-left: 65px;
+		padding-right: 65px;
+		margin-bottom: 70px;
+	}
+}
+
+//Твиттер
+
+.twitter {
+	padding-top: 125px;
+	padding-bottom: 180px;
+	background-color: #f7f7f7;
+	&__icon-twit {
+		margin-left: 784px;
+		margin-bottom: 40px;
+	}
+	&__title {
+		font-weight: 300;
+  color: #848789;
+  margin-bottom: 30px;
+  text-align: center;
+	}
+	&__span-bold {
+  width: 297px;
+  height: 16px;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1.8px;
+  text-align: center;
+  color: #353738;
+	}
+	&__text-twit {
+		display: inline-block;
+		width: 1036px;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.42;
+  letter-spacing: normal;
+  text-align: center;
+  color: #848789;
+  margin-left: 301px;
+	}
+}
+
+//Магазин фото
+.shop {
+	&::after{
+		display: table;
+		clear: both;
+		content: "";
+	}
+	&__column1 {
+		float: left;
+	}
+	&__img1 {
+		width: 267px;
+		float: left;
+	}
+	&__img2 {
+		width: 267px;
+		height: 534px;
+		float: left;
+	}
+	&__column2 {
+		width: 530px;
+		float: left;
+	}
+}
+
+.column1 {
+	&__img1-col1 {
+		width: 267px;
+	}
+	&__img2-col1 {
+		width: 267px;
+		margin-left: -4px;
+	}
+}
+
+.column2 {
+	&__img6-col2 {
+		width: 528px;
+	}
+	&__img7-col2 {
+		width: 265px;
+	}
+	&__img8-col2 {
+		width: 265px;
+		height: 270px;
+		margin-left: -5px;
+	}
+}
+//Кнопка магазина
+.shopbtn {
+	background-color: #282f35;
+	padding: 75px 0;
+	&__button {
+		width: 300px;
+  		height: 50px;
+  		font-family: Lato;
+  		font-size: 14px;
+  		font-weight: bold;
+  		letter-spacing: 2.8px;
+  		text-align: center;
+		color: #ffffff;
+		border: 1px solid #94979a;
+		padding: 20px 50px;
+		margin-left: 660px;
+	}
+}
+
+//Обратная связь
+.feedback {
+	padding-top: 100px;
+	padding-bottom: 110px;
+	&__icon {
+		display: inline-block;
+		margin-left: 755px;
+		margin-bottom: 40px;
+	}
+	&__text {
+  		font-family: Lato;
+  		font-size: 24px;
+  		font-style: italic;
+  		line-height: 1.42;
+  		text-align: center;
+		 color: #848789;
+		 margin-bottom: 35px;
+	}
+	&__form {
+		margin-left: 535px;
+	}
+}
+
+.form {
+	&__email {
+		width: 400px;
+		height: 69px;
+		font-family: Lato;
+		font-size: 20px;
+		font-style: italic;
+		line-height: 1.2;
+		color: #929292;
+		border: solid 1px #d3d7d9;
+		background-color: #ffffff;
+		padding: 28px 0px 25px 28px;
+	}
+	&__btn {
+		width: 126px;
+  		height: 70px;
+		background-color: #64c29e;  
+		font-family: Lato;
+  		font-size: 24px;
+  		font-weight: 300;
+  		line-height: 1;
+  		text-align: center;
+		  color: #ffffff;
+		  z-index: 10;
+	}
+}
+
+
+//Подвал
+.footer {
+	background-color: #f7f7f7;
+	padding-top: 100px;
+	padding-bottom: 100px;
+			&::after{
+				display: table;
+				clear: both;
+				content: "";
+			}
+	&__adress-strong{
+		font-size: 16px;
+  		font-weight: bold;
+	}
+	&__adress {
+		float: left;
+		width: 236px;
+		height: 48px;
+		font-family: Lato;
+		font-size: 14px;
+		font-style: italic;
+		line-height: 1.29;
+		text-align: left;
+		color: #848789;
+		margin-left: 250px;
+		margin-right: 250px;
+	}
+	&__icon-twitter {
+		float: left;
+		margin-top: 10px;
+		margin-right: 10px;
+	}
+	&__icon-facebook {
+		float: left;
+		margin-top: 10px;
+		margin-right: 10px;
+	}
+	&__icon-pinterest {
+		float: left;
+		margin-top: 10px;
+		margin-right: 330px;
+	}
+	&__by-yebo {
+		width: 90px;
+  		height: 12px;
+  		font-family: Lato;
+  		font-size: 14px;
+  		font-style: italic;
+  		line-height: 1.29;
+  		text-align: right;
+  		color: #848789;
+		float: left;
+		margin-top: 20px;
+	}
+	&__by-yebologo {
+		float: right;
+		margin-top: 10px;
+		margin-right: 250px;
+	}
+}
