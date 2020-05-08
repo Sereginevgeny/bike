@@ -1,5 +1,9 @@
 @import 'nullstyle.scss';
 
+body{
+min-width: 1600px;
+}
+
 //Шапка
 .header {
 	height: 800px;
