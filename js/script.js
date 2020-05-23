@@ -1,10 +1,13 @@
-// let admin;
-// let name = "John";
 
-// admin = name;
+let yourName = prompt ("Как вас зовут?", "Введите имя");
 
-// alert(admin);
 
-let yourName = prompt ("Как вас зовут?");
-alert ("Здравствуйте " + yourName + ". Добро пожаловать на наш сайт!");
-
+if (yourName == "Введите имя"){
+	 alert ("Здравствуйте. Добро пожаловать на наш сайт!");
+}
+else if (yourName == "") {
+	alert ("Здравствуйте. Добро пожаловать на наш сайт!");
+}
+else {
+	alert ("Здравствуйте " + yourName + ". Добро пожаловать на наш сайт!");
+}
