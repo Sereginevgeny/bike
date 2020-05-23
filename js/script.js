@@ -5,8 +5,8 @@
 
 // alert(admin);
 
-let yourName = prompt ("Как вас зовут?", "");
+let yourName = prompt ("Как вас зовут?");
 if (yourName == ""){
-alert ("Введите свое имя!")
-}else { alert ("Здравствуйте " + yourName + ". Добро пожаловать на наш сайт!");
+	 alert ("Введите свое имя!");
+}else {alert ("Здравствуйте " + yourName + ". Добро пожаловать на наш сайт!");
 }
