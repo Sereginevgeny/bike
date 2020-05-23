@@ -6,4 +6,4 @@
 // alert(admin);
 
 let yourName = prompt ("Как вас зовут?");
-alert ("Здравствуйте " + yourName);
+alert ("Здравствуйте " + yourName + ". Добро пожаловать на наш сайт!");
